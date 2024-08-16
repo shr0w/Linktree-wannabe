@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+<title> Sandro Vargas - links</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="./index.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+<script>
+window.addEventListener('DOMContentLoaded' , () => {
+    VANTA.BIRDS({
+  el: "#vanta",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: true,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 2.00,
+  scaleMobile: 1.00,
+  color1: 0xff00d1,
+  color2: 0xb31b1b,
+  wingSpan: 40.00,
+  separation: 100.00,
+  alignment: 77.00,
+  quantity: 1.00,
+  backgroundAlpha: 0.0,
+})
+
+setTimeout(() => {
+    const main = document.querySelector('main')
+    main.style.opacity = 1
+    main.style.filter = 'blur(0px)'
+}, 1000)
+})
+</script>
+    </head>
+    <body>
+        <div id="vanta">
+
+        </div>
+        <main>
+            <header>
+                <img src="./images/sandro.jpeg"/>
+        <h1> @perduvoyager</h1> 
+        </header>
+            <ul>
+                <li>
+                    <a href="https://imsandrovargas.com">
+                        <img src="./images/homepage.svg" alt="Portfolio" width="20" />
+                        Portfolio
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/sandro-vargas/">
+                        <img src="./images/linkedin.svg" alt="LinkedIn" width="30" />
+                        LinkedIn Profile
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/PerduVoyageur">
+                        <img src="./images/twitter.svg" alt="Twitter" width="20" />
+                        X Profile
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/shr0w">
+                        <img src="./images/github.svg" alt="Github" width="20" />
+                        Github Profile
+                    </a>
+                </li>
+            </ul>
+        </main>   
+    </body>
+</html>
